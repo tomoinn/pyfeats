@@ -12,7 +12,7 @@ setup(
     author_email='tomoinn@gmail.com',
     license='GPL3',
     packages=find_namespace_packages(),
-    install_requires=['requests==2.22.0', 'pydotplus==2.0.2', 'rply==0.7.6', 'pillow==8.1.0',
+    install_requires=['requests==2.22.0', 'pydotplus==2.0.2', 'rply==0.7.6', 'pillow==8.2.0',
                       'fpdf==1.7.2', 'pypdf2', 'pyyaml', 'guizero', 'python-dateutil', 'beautifulsoup4', 'torch',
                       'torchvision'],
     package_data={'pathfinder.mapmaker.pytorch': ['*.pt'],
